@@ -1,5 +1,5 @@
 //
-//  Grocery_TrackerApp.swift
+//  GroceryTrackerApp.swift
 //  Grocery Tracker
 //
 //  Created by Ankit Yadav on 24/03/25.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Grocery_TrackerApp: App {
+struct GroceryTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
